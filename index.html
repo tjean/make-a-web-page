@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Captain Anonymous</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <!-- This is an HTML comment -->
+<body>
+  <div class="title">
+    STAGE 1 PROJECT by THIERRY
+  </div>
+  <div class="lesson">
+    <h1>Lesson 1</h1>
+      <h2>World Wide Web</h2>
+        <p>
+        <b>HTML = Hypertext Markup Language</b><br>
+        Invented in 1990. Currently 30 bn pages<br>
+        3 players: You (or I), Internet, Servers<br>
+        HTTP is the communication between Internet and Servers<br>
+        <br>
+        <b>HTML</b><br>
+        Markup: opening tag - "content" - closing tag. Makes an <b><em>element</em></b><br>
+        Exemples of tags: b for bold, em for italics, img for images, etc.<br>
+        </p>
+      <h2>What we have learned</h2>
+        <p>
+        1. What a page is: a text document written in HTML. Web browsers read theses documents and interpret and dispaly them.<br>
+        2. How coding works: writing text in a language that a computer can understand, with tags.<br>
+        3. Computers are stupid: writing must be <b>exact</b> with <b>correct syntax</b><br>
+        4. Programmers cannot remember everything: that is OK<br>
+        5. Basic HTML vocabulary<br>
+        . tags (opening and closing - except for void tags like "br")<br>
+        . elements = tag+content+tag<br>
+        . attribute: property of an HTML element
+        </p>
+  </div>
+  <div class="lesson">
+    <h1>Lesson 2</h1>
+      <h2>HTML & CSS</h2>
+        <p>
+        - HTML & CSS are both "languages"<br>
+        - HTML controls the "structure" of the page<br>
+        - CSS controls the "style" of the page<br>
+        - When programmers talk about "DOM" (Document Object Model) they talk about the tree-like structure of a page
+        </p>
+      <h2>Recap with definitions</h2>
+        <p>  
+        HTML (Hyperlink Markup Language) is a standard markup language to create web pages<br>
+        CSS (Cascade Stayle Sheets) is a language used for describing the look and formatting of a document written in a markup language<br>
+        DOM (Document Oject Model) is a cross platform and a language independent convention for representing & interacting with objects in HTML. The nodes of every documents are organized in a tre structure called the DOM tree.
+        </p>
+      <h2>NEVER FORGET: BOXES are everywhere!</h2>
+        <p>
+        Use <"div"> for boxes and give each element a class attribute<br>
+        e.g. "<"div class="name">text<"/div>
+        </p>
+  </div>
+  <div class="lesson">
+    <h1>Lesson 3<h1>
+      <h2>CSS: code written to control the "style" of HTML elements</h2>
+        <p>
+        Based as:<br>
+        selector {declaration;<br>
+        }<br>
+        - everything between { and } will be interpreted as a rule applying to all elements selected by the selector (example h1)<br>
+        - a declaration will be in the form:<br>
+        property:_value;<br>
+        for example: background-color:_black;<br>
+        </p>
+        <p>
+        Use class selector to apply style to certain boxes<br>
+        as in<br>
+          "<"div class= "stop"><br>
+          ".stop {<br>
+          "background-color= red;<br>
+          "}<br>
+          It will attribute the bacground color RED to all "stop" boxes.<br>
+      </p>
+      <p>
+        <b>Inheritance</b><br>
+        Most of declarations will inherit, i.e. apply to all div within a "<"style">.<br>
+      </p>
+      <p>
+        <b>Include CSS styling in a web page</b><br>
+        <u>Method 1</u><br>
+        Write CSS code in the "<"head"> of HTML.<br>
+        Good for small projects.<br>
+        <u>Method 2</u><br>
+        Link HTML to a separate CSS file:<br>
+        1. Write structural HTML in a file (main.html)<br>
+        2. Write all CSS code in another file (main.css)<br>
+        3. add "<"head"> to top of HTML<br>
+        4. add "<"link"> inside the "<"head">..."<"/head">(remember that link is a void tag)<br>
+        5. add atribute to link.<br>
+      </p>
+      <p>
+        <b>Code comments</b><br>
+        To comment code:<br>
+        in HTML: "<"!--comment--"><br>
+        in CSS: /*---*/.<br>
+      </p>
+      <p>
+        <b>The concept of Boxes</b><br>
+        Boxes have:<br>
+          - content<br>
+          - padding<br>
+          - border<br>
+          - margin<br>
+          Each of those can be formatted (size, color, etc.)<br>
+      </p>
+      <p>
+        The declaration "box-sizing:_border-box;" makes calculation of box size.<br>
+      </p>
+      <p>
+        Sizing can be expressed in pixels (px) or in %.<br>
+      </p>
+      <p>
+        <b>Box positioning</b><br>
+        1. Div's are block elements (as opposed to inline): by default, they take up the entire page width<br>
+        2. adding the rule "display:_flex;" to the appropriate CSS will override this behavior and let div's appear next to each other.<br>
+      </p>
+      <p>
+        <b>Advices</b><br>
+        1. Lok for natural boxes<br>
+        2. look for repeated styles and semantic elements<br>
+        3. Write HTML<br>
+        4. Apply styles from biggest to smallest<br>
+        5. Fix things<br>
+      </p>
+  </div>    
+</body>
+
+</body>
+
+</html>
